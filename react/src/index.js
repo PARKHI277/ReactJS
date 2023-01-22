@@ -11,6 +11,6 @@ import ReactDOM from "react-dom";
 // );
 
 ReactDOM.render(
-  [<h1>Learning React</h1>, <p>Will do</p>],
+  [<h1>Learning React</h1>, <p>Will do</p> , <p>New Day</p>],
   document.getElementById("root")
 );
