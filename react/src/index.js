@@ -1,32 +1,37 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
 import "./index.css";
- 
 
 // Greeting Website
-let currDate = new Date();
-currDate = currDate.getHours();
-let greeting = "";
-const cssStyle = {};
-if (currDate > 1 && currDate < 12) {
-  greeting = "Good Morning";
-  cssStyle.color = "green";
-} else if (currDate >= 12 && currDate < 19) {
-  greeting = "Good Afternoon";
-  cssStyle.color = "Orange";
-} else {
-  greeting = "  Good Night";
-  cssStyle.color = "Black";
-}
+// let currDate = new Date();
+// currDate = currDate.getHours();
+// let greeting = "";
+// const cssStyle = {};
+// if (currDate > 1 && currDate < 12) {
+//   greeting = "Good Morning";
+//   cssStyle.color = "green";
+// } else if (currDate >= 12 && currDate < 19) {
+//   greeting = "Good Afternoon";
+//   cssStyle.color = "Orange";
+// } else {
+//   greeting = "  Good Night";
+//   cssStyle.color = "Black";
+// }
 ReactDOM.render(
-  <>
-    <div>
-      <h1>Hello Sir, {greeting}</h1>
-    </div>
-  </>,
-
+  <App/>,
   document.getElementById("root")
 );
+
+//  ---------------------------------------using components-----------------------------------
+
+// ReactDOM.render(
+//   <>
+//     <App />
+//   </>,
+//   document.getElementById("root")
+// );
+
 
 // ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 // ReactDOM.render(
@@ -55,11 +60,11 @@ ReactDOM.render(
 //   document.getElementById("root")
 // );
 
-// // template literals
+//  ------------------------------ template literals
 
 // console.log(`My name is ${fname}`);
 
-// // showing date
+//---------------------------------- showing date
 
 // const currDate = new Date().toLocaleDateString();
 
@@ -70,7 +75,7 @@ ReactDOM.render(
 //   document.getElementById("root")
 // );
 
-// // jsx attribute
+//----------------------------- jsx attribute
 
 // ReactDOM.render(
 //   <>
