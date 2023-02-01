@@ -3,7 +3,11 @@ import ReactDOM from "react-dom";
 import App from "./App";
 import "./index.css";
 
-// Greeting Website
+
+// ----------------------------- calculatar
+
+ReactDOM.render(<App />, document.getElementById("root"));
+// ----------------------------- Greeting Website
 // let currDate = new Date();
 // currDate = currDate.getHours();
 // let greeting = "";
@@ -18,10 +22,10 @@ import "./index.css";
 //   greeting = "  Good Night";
 //   cssStyle.color = "Black";
 // }
-ReactDOM.render(
-  <App/>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <App/>,
+//   document.getElementById("root")
+// );
 
 //  ---------------------------------------using components-----------------------------------
 
@@ -31,7 +35,6 @@ ReactDOM.render(
 //   </>,
 //   document.getElementById("root")
 // );
-
 
 // ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 // ReactDOM.render(
